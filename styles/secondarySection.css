@@ -1,0 +1,33 @@
+.secondary-stats{
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 26rem;
+    height: fit-content;
+}
+
+.more-info-container{
+    margin-bottom: 1rem;
+    width: 100%;
+    height: fit-content;
+    border: solid;
+    border-radius: 1rem;
+    border-width: 0.1rem;
+    box-shadow: -2px -3px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+
+.info-title{
+    font-size: 1.2rem;
+}
+
+.data{
+    font-size: 2.3rem;
+    font-weight: 500;
+    line-height: 2.7rem;
+}
+
+.data span{
+    font-size: 1.2rem;
+    font-weight: 400;
+}

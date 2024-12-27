@@ -1,0 +1,48 @@
+header{
+    border-radius: 1px;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 100;
+}
+
+.coordinate-title{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.coordinate-title svg:hover{
+    transform: scale(1.1);
+}
+
+svg{
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.settings-button svg:hover{
+    transform: scale(1.1);
+}
+
+.background{
+    position: absolute;
+    width: 100%;
+    height: 3rem;
+    margin-top: -30%;
+    transition: margin-top 0.2s;
+    z-index: -1;
+}
+
+.background-anim{
+    background-color: rgb(8, 8, 8);
+    margin-top: 0;
+    z-index: 0.5;
+}

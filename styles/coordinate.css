@@ -1,0 +1,61 @@
+.coordinate-section{
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(7px);
+    z-index: 30;
+}
+
+.coordinate-container{
+    position: absolute;
+    top: 5rem;
+    left: 5%;
+    right: 5%;
+    bottom: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coordinate-title{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.text-input{
+    border-radius: 1rem;
+    border: solid;
+    border-width: 0.1rem;
+    background: none;
+    color: white;
+    height: 2rem;
+    width: 15rem;
+    margin: 0.5rem 0;
+    padding-left: 1rem;
+    outline: none;
+}
+
+.or{
+    font-size: 2rem;
+}
+
+.done-button{
+    width: 3rem;
+    height: 3rem;
+    padding: 0;
+}
+
+.done-button svg{
+    margin: 0;
+}
+
+.done-button svg:hover{
+    transform: scale(1.05);
+}
